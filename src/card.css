@@ -1,0 +1,69 @@
+.product-card {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(60deg, rgb(70, 41, 186) 0%, rgb(242, 111, 242) 100%);    border-radius: 15px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.product-card2 {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(60deg, rgb(242, 111, 242) 0%,rgb(70, 41, 186) 100%);    border-radius: 15px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fa-code {
+    font-size: 60px;
+    color: white;
+    position: absolute;
+    transition: opacity 0.5s;
+}
+.fa-book {
+    font-size: 60px;
+    color: white;
+    position: absolute;
+    transition: opacity 0.5s;
+}
+.fa-dumbbell {
+    font-size: 60px;
+    color: white;
+    position: absolute;
+    transition: opacity 0.5s;
+}
+.product-info {
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+.product-card:hover .product-info {
+    opacity: 1;
+}
+.product-card2:hover .product-info {
+    opacity: 1;
+}
+.product-card:hover .fa-code {
+    opacity: 0;
+}
+.product-card2:hover .fa-book {
+    opacity: 0;
+}
+.product-card:hover .fa-dumbbell {
+    opacity: 0;
+}
+
