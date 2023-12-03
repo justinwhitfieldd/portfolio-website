@@ -6,6 +6,8 @@
     <title>Justin Whitfield</title>
     <link rel="stylesheet" href="src/styles.css">
     <link rel="stylesheet" href="src/card.css">
+    <link rel="stylesheet" href="src/projects.css">
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
@@ -73,9 +75,7 @@
                         <a href="#resume" class="nav-link">Contact</a>
                     </li>
                 </ul>
-                <ul class="navbar-nav brand">
-                    <img src="assets/imgs/avatar.jpg" alt="" class="brand-img">
-                   
+                <ul class="navbar-nav brand">                   
                 
             </div>
         </div>
@@ -86,7 +86,7 @@
         <br>
         <div id="about" class="row about-section">
             
-            <div class="col-lg-4 about-card">
+            <div class="col-lg-4 about-card mt-3">
                 <div class="product-card">
                     <i class="fa-solid fa-code"></i>
                     <div class="product-info absolute top-0 left-0 right-0 bottom-0 p-4 opacity-0 transition-opacity duration-500 flex flex-col justify-start items-center">
@@ -97,7 +97,7 @@
                 </div>
             </div>
 
-            <div class="col-lg-4 about-card">
+            <div class="col-lg-4 about-card mt-3">
                 <div class="product-card2">
                     <i class="fa-solid fa-book"></i>
                     <div class="product-info absolute top-0 left-0 right-0 bottom-0 p-4 opacity-0 transition-opacity duration-500 flex flex-col justify-start items-center">
@@ -111,7 +111,7 @@
                 </div>
             </div>
 
-            <div class="col-lg-4 about-card">
+            <div class="col-lg-4 about-card mt-3">
                 <div class="product-card">
                     <i class="fa-solid fa-dumbbell"></i>
                     <div class="product-info absolute top-0 left-0 right-0 bottom-0 p-4 opacity-0 transition-opacity duration-500 flex flex-col justify-start items-center">
@@ -133,9 +133,9 @@
             <br>
             <br>
             <br>
-            <h2 class="mb-5"><span class = "my">My</span> Resume</h2>
-            <div class="row">
-                <div class="col-md-6 col-lg-4">
+            <h2 class="mb-4"><span class = "my">My</span> Resume</h2>
+            <div class="row ">
+                <div class="col-md-6 col-lg-4 mt-3">
                     <div class="card">
                        <div class="card-header">
                             <div class="mt-2">
@@ -156,7 +156,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-4">
+                <div class="col-md-6 col-lg-4 mt-3">
                     <div class="card">
                        <div class="card-header">
                             <div class="mt-2">
@@ -180,7 +180,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4">
+                <div class="col-lg-4 mt-3">
                     <div class="card">
                        <div class="card-header">
                             <div class="pull-left">
@@ -205,6 +205,10 @@
                             <div class="progress mb-3">
                                 <div class="progress-bar" role="progressbar" style="width: 70%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
+                            <h6>React</h6>
+                            <div class="progress mb-3">
+                                <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
                             <h6>SQL</h6>
                             <div class="progress mb-3">
                                 <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
@@ -226,54 +230,78 @@
     </section>
     <br>
     <br>
-    <section class="section" id="projects">
+    <section class="section" id="resume">
         <div class="container">
-            <h3 class="font-weight-Bold text-center">Projects</h3>
             <br>
-            <div class = "carousel">
-                <section class="game-section">
-                  <div class="owl-carousel custom-carousel owl-theme">
-                    <div class="item active" style="background-image: url(https://www.yudiz.com/codepen/expandable-animated-card-slider/dota-2.jpg);">
-                      <div class="item-desc">
-                        <h3>Dota 2</h3>
-                        <p>Dota 2 is a multiplayer online battle arena by Valve. The game is a sequel to Defense of the
-                          Ancients, which was a community-created mod for Blizzard Entertainment's Warcraft III.</p>
-                      </div>
+            <br>
+            <h2 class="mb-5"><span class = "my">Pro</span>jects</h2>
+            <div class="row">
+                <div>
+                    <div class="card">
+                       <div class="card-header">
+                            <div class="mt-2">
+                                <h4>Education</h4>
+                                <span class="line"></span>  
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h6 class="title my">2022 - Present</h6>
+                            <P>B.E Software Engineering</P>
+                            <P class="subtitle">I am in the process of completing my Bachelor degree at Mississippi State University, where I have maintained a 4.0 GPA. 
+                                Since transferring, I have consistently been recognized on the President's List each semester, reflecting my hard work. My coursework has primarily 
+                                centered around machine learning and algorithm design, areas in which I have developed a strong foundation and keen interest.
+                            </P>
+
+                        </div>
                     </div>
-                    <div class="item" style="background-image: url(https://www.yudiz.com/codepen/expandable-animated-card-slider/winter-3.jpg);">
-                      <div class="item-desc">
-                        <h3>The Witcher 3</h3>
-                        <p>The Witcher 3 is a multiplayer online battle arena by Valve. The game is a sequel to Defense
-                          of the Ancients, which was a community-created mod for Blizzard Entertainment's Warcraft III.</p>
-                      </div>
+                </div>
+
+                <br>
+
+                <div>
+                    <div class="card">
+                       <div class="card-header">
+                            <div class="mt-2">
+                                <h4>Education</h4>
+                                <span class="line"></span>  
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h6 class="title my">2022 - Present</h6>
+                            <P>B.E Software Engineering</P>
+                            <P class="subtitle">I am in the process of completing my Bachelor degree at Mississippi State University, where I have maintained a 4.0 GPA. 
+                                Since transferring, I have consistently been recognized on the President's List each semester, reflecting my hard work. My coursework has primarily 
+                                centered around machine learning and algorithm design, areas in which I have developed a strong foundation and keen interest.
+                            </P>
+
+                        </div>
                     </div>
-                    <div class="item" style="background-image: url(https://www.yudiz.com/codepen/expandable-animated-card-slider/rdr-2.jpg);">
-                      <div class="item-desc">
-                        <h3>RDR 2</h3>
-                        <p>RDR 2 is a multiplayer online battle arena by Valve. The game is a sequel to Defense of the
-                          Ancients, which was a community-created mod for Blizzard Entertainment's Warcraft III.</p>
-                      </div>
+                </div>
+
+                <br>
+
+                <div>
+                    <div class="card">
+                       <div class="card-header">
+                            <div class="mt-2">
+                                <h4>Education</h4>
+                                <span class="line"></span>  
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h6 class="title my">2022 - Present</h6>
+                            <P>B.E Software Engineering</P>
+                            <P class="subtitle">I am in the process of completing my Bachelor degree at Mississippi State University, where I have maintained a 4.0 GPA. 
+                                Since transferring, I have consistently been recognized on the President's List each semester, reflecting my hard work. My coursework has primarily 
+                                centered around machine learning and algorithm design, areas in which I have developed a strong foundation and keen interest.
+                            </P>
+
+                        </div>
                     </div>
-                    <div class="item" style="background-image: url(https://www.yudiz.com/codepen/expandable-animated-card-slider/pubg.jpg);">
-                      <div class="item-desc">
-                        <h3>PUBG Mobile</h3>
-                        <p>PUBG 2 is a multiplayer online battle arena by Valve. The game is a sequel to Defense of the
-                          Ancients, which was a community-created mod for Blizzard Entertainment's Warcraft III.</p>
-                      </div>
-                    </div>
-                    <div class="item" style="background-image: url(https://www.yudiz.com/codepen/expandable-animated-card-slider/fortnite.jpg);">
-                      <div class="item-desc">
-                        <h3>Fortnite</h3>
-                        <p>Battle royale where 100 players fight to be the last person standing. which was a community-created mod
-                          for Blizzard Entertainment's Warcraft III.</p>
-                      </div>
-                    </div>
-                  </div>
-                </section>
-              </div>
+                </div>
+            </div>
         </div>
     </section>
-    
 
     <footer class="footer py-3">
         <div class="container">
