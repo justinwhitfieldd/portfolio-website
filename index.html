@@ -7,7 +7,12 @@
     <link rel="stylesheet" href="src/styles.css">
     <link rel="stylesheet" href="src/card.css">
     <link rel="stylesheet" href="src/projects.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 
+    <!-- Include jQuery and Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
@@ -246,25 +251,63 @@
                         </div>
                         <div class="card-body">
                             <h6 class="title my-2">School Project</h6>
-                            <div class = "row">
-                                <div class="col-md-6 col-lg-3 mt-3 ">
-                                    <div class="relative mx-auto rounded-lg overflow-hidden">
-                                        <img src="src/photos/nnewRV.png" class="proj-img" alt="">
-                                    </div>
+                            <div class="row">
+                                <div class="col-md-6 col-lg-3 mt-3">
+                                    <!-- Bootstrap Carousel -->
+                                    <div id="projectCarousel" class="carousel slide" data-ride="carousel" data-interval="115000">
+                                        <!-- Indicators -->
+                                        <ol class="carousel-indicators">
+                                            <li data-target="#projectCarousel" data-slide-to="0" class="active"></li>
+                                            <li data-target="#projectCarousel" data-slide-to="1"></li>
+                                            <li data-target="#projectCarousel" data-slide-to="2"></li>
+                                            <li data-target="#projectCarousel" data-slide-to="3" class="active"></li>
+                                            <li data-target="#projectCarousel" data-slide-to="4"></li>
+                                            <li data-target="#projectCarousel" data-slide-to="5"></li>
+                                            <li data-target="#projectCarousel" data-slide-to="6"></li>
 
+                                        </ol>
+                                        <!-- Wrapper for slides -->
+                                        <div class="carousel-inner rounded-lg overflow-hidden">
+                                            <div class="carousel-item active">
+                                                <img src="src/photos/RVpic1.JPG" class="proj-img" alt="...">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="src/photos/RVpic2.JPG" class="proj-img" alt="...">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="src/photos/RVpic3.JPG" class="proj-img" alt="...">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="src/photos/RVpic4.JPG" class="proj-img" alt="...">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="src/photos/RVpic5.JPG" class="proj-img" alt="...">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="src/photos/RVpic6.JPG" class="proj-img" alt="...">
+                                            </div>
+                                        </div>
+                                        <!-- Left and right controls -->
+                                        <a class="carousel-control-prev" href="#projectCarousel" role="button" data-slide="prev">
+                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        </a>
+                                        <a class="carousel-control-next" href="#projectCarousel" role="button" data-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        </a>
+                                    </div>
                                 </div>
                                 <div class="col-md-6 col-lg-8 mt-3">
                                     <p class="subtitle">
                                         I am in the process of completing my Bachelor degree at Mississippi State University, where I have maintained a 4.0 GPA. 
-                                        Since transferring, I have consistently been recognized on the President's List each semester, reflecting my hard work. My coursework has primarily 
-                                        centered around machine learning and algorithm design, areas in which I have developed a strong foundation and keen interest.
+                                        Since transferring, I have consistently been recognized on the President's List each semester, reflecting my hard work. 
+                                        My coursework has primarily centered around machine learning and algorithm design, areas in which I have developed a strong foundation and keen interest.
                                     </p>
                                 </div>
                             </div>
-
                         </div>
                     </div>
                 </div>
+                
                 <br>
                 <div>
                     <div class="card">
