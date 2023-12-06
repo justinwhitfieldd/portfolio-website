@@ -41,7 +41,7 @@ p {
   display: inline-block;
   font-size: 16px;
 }
-.nocolor{
+.nocolor,.nocolor:visited{
   color:black;
 }
 .headerr {
