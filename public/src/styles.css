@@ -40,11 +40,9 @@ p {
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  text-decoration: none;
 }
 .nocolor{
-  text-decoration: none;
-
+  color:black;
 }
 .headerr {
   position:relative;
